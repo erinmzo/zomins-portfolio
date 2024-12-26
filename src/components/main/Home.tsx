@@ -9,7 +9,7 @@ function Home() {
           <div>
             <span className="inline-block py-4 px-10 rounded-[28px] bg-blue text-white">FRONTEND DEVELOPER</span>
           </div>
-          <div className="mt-[96px]">
+          <div className="mt-[96px] flex flex-col items-start">
             <span className="inline-block py-4 px-10 rounded-[28px] bg-black text-white">MINSOO CHO</span>
             <span className="inline-block mt-8 py-4 px-10 rounded-[28px] bg-black text-white">PORTPOLIO</span>
           </div>
