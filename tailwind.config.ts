@@ -9,10 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        black: "#000000",
+        white: "#ffffff",
+        blue: "#006aff",
+        orange: "#ffa434",
+        green: "#21ca51",
+        gray: {
+          1: "#f8f8f8",
+          2: "#e8e8e8",
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 } satisfies Config;
