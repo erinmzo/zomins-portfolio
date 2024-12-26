@@ -3,7 +3,7 @@ import DetailWrapper from "@/components/work/detail/DetailWrapper";
 import Title from "@/components/work/detail/Title";
 import { WORK_DATA, WorkType } from "@/constants/portfoilos";
 
-async function WorkDetailPage({ params }: { params: { id: string } }) {
+async function WorkDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const portfolio = WORK_DATA.find((data) => data.id === Number(id)) as WorkType;
   return (
