@@ -3,10 +3,10 @@ import { PropsWithChildren } from "react";
 
 function HomeLayout({ children }: PropsWithChildren) {
   return (
-    <>
+    <div>
       <Header />
       {children}
-    </>
+    </div>
   );
 }
 
