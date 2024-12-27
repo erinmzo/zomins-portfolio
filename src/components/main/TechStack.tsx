@@ -1,5 +1,6 @@
 import { MY_STACK } from "@/constants/stack";
 import { GITHUB_URL, RESUME_URL, VELOG_URL } from "@/constants/url";
+import Label from "../common/label/Label";
 import Page from "../common/layout/page/Page";
 
 function TechStack() {
@@ -10,18 +11,15 @@ function TechStack() {
         <ul className="flex flex-wrap items-center gap-4 mt-[40px] mb-[100px]">
           {MY_STACK.map((stack) => (
             <li key={stack.label} className="shrink-0 mb-4">
-              <a href={stack.link} className="bg-gray-2 text-[24px] font-bold py-3 px-4 rounded-full" target="_blank">
-                <span># </span>
-                {stack.label}
-              </a>
+              <Label link={stack.link} label={stack.label} />
             </li>
           ))}
         </ul>
-        <ul className="border-t border-black pt-[44px] flex items-center justify-between">
+        <ul className="border-t border-black pt-[44px] grid grid-cols-3 gap-[20px]">
           <li>
             <a
               href={GITHUB_URL}
-              className="block py-[35px] px-[85px] text-[72px] rounded-full bg-blue text-white"
+              className="block py-[35px] text-[72px] text-center rounded-full bg-blue text-white"
               target="_blank"
             >
               Github
@@ -30,7 +28,7 @@ function TechStack() {
           <li>
             <a
               href={VELOG_URL}
-              className="block py-[35px] px-[85px] text-[72px] rounded-full bg-orange text-white"
+              className="block py-[35px] text-[72px] text-center rounded-full bg-orange text-white"
               target="_blank"
             >
               Velog
@@ -39,7 +37,7 @@ function TechStack() {
           <li>
             <a
               href={RESUME_URL}
-              className="block py-[35px] px-[85px] text-[72px] rounded-full bg-green text-white"
+              className="block py-[35px] text-[72px] text-center rounded-full bg-green text-white"
               target="_blank"
             >
               Resume

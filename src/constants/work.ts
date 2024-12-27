@@ -4,14 +4,14 @@ export const WORK_LIST = [
     category: "Frontend",
     title: "펫데이지",
     url: "https://pet-daisy.vercel.app/",
-    tags: ["#1인가구", "#라이프스타일", "#반려동물"],
+    tags: ["#반려동물", "#건강기록", "#라이프스타일"],
   },
   {
     id: 4,
     category: "Frontend",
     title: "혼자살때 시즌 2",
     url: "https://livingalone2.vercel.app/",
-    tags: ["#1인가구", "#라이프스타일", "#홈데코"],
+    tags: ["#1인가구", "#라이프스타일", "#커뮤니티"],
   },
   {
     id: 3,
