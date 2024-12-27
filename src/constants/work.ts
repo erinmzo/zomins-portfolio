@@ -25,13 +25,13 @@ export const WORK_LIST = [
     category: "Publishing",
     title: "장인성의 말랑한 오피스",
     url: "https://erinmzo.github.io/insungchang/",
-    tags: ["#마케팅", "#포트폴리오"],
+    tags: ["#마케팅", "#웹 리플렛"],
   },
   {
     id: 1,
     category: "Publishing",
     title: "나응식의 묘집함",
     url: "https://erinmzo.github.io/naeungsic/",
-    tags: ["#반려동물", "#포트폴리오"],
+    tags: ["#반려동물", "#웹 리플렛"],
   },
 ];

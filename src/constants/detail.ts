@@ -3,6 +3,7 @@ export interface WorkType {
   category: string;
   title: string;
   englishTitle: string;
+  siteLink: string;
   description: string;
   testAccount?: {
     id: string;
@@ -19,7 +20,7 @@ export interface WorkType {
     problem: string;
     solution: string;
   }[];
-  link: {
+  links: {
     github: string;
     notion?: string;
     UTReport?: string;
@@ -32,6 +33,7 @@ export const WORK_DATA: WorkType[] = [
     category: "Publishing",
     title: "나응식의 묘집합",
     englishTitle: "Naeungsic's Living Space",
+    siteLink: "https://erinmzo.github.io/naeungsic/",
     description:
       "가구 브랜드 레어로우와 고양이 수의사 나응식이 협업하여 제작된 공간을 소개하는 웹 리플릿입니다.\n감각적인 공간 스타일링과 가구들의 조화로운 배치를 통해 새로운 라이프스타일을 제안합니다.",
     features: [
@@ -52,7 +54,7 @@ export const WORK_DATA: WorkType[] = [
       },
     ],
     techStack: ["HTML", "CSS", "JavaScript"],
-    link: {
+    links: {
       github: "https://github.com/erinmzo/naeungsic",
     },
   },
@@ -61,6 +63,7 @@ export const WORK_DATA: WorkType[] = [
     category: "Publishing",
     title: "장인성의 말랑한 오피스",
     englishTitle: "Insung Chang's Soft Office",
+    siteLink: "https://erinmzo.github.io/insungchang/",
     description:
       "철제 가구 브랜드 레어로우와 협업하여 제작된 웹 리플릿 프로젝트입니다.\n레어로우의 가구들로 스타일링된 오피스 공간을 소개하며,\n마케팅 전문가의 업무 공간에 어울리는 감각적인 공간을 제안합니다.",
     features: [
@@ -81,7 +84,7 @@ export const WORK_DATA: WorkType[] = [
       },
     ],
     techStack: ["HTML", "CSS", "JavaScript"],
-    link: {
+    links: {
       github: "https://github.com/erinmzo/insungchang",
     },
   },
@@ -90,6 +93,7 @@ export const WORK_DATA: WorkType[] = [
     category: "Frontend",
     title: "혼자살때",
     englishTitle: "Living Alone",
+    siteLink: "https://livingalone.vercel.app/",
     description:
       "혼자살때는 설레이는 첫 자취를 시작한 자취생의 걱정을 덜어주는 커뮤니티 웹서비스입니다.\n자취를 시작하는 사람들을 위한 필수템 리뷰와 공동구매 정보를 제공하는 커뮤니티 웹사이트입니다.\n회원들은 자취에 필요한 다양한 아이템을 추천하고, 특가 상품 공동구매를 통해 저렴하게 필요한 물품을 구입할 수 있으며, 회원가입을 통해 맞춤형 서비스와 편리한 기능을 이용할 수 있습니다.",
     testAccount: {
@@ -131,7 +135,7 @@ export const WORK_DATA: WorkType[] = [
           "이미지 첨부 시 자동으로 이미지를 압축하여 이미지 용량을 1mb 이하로 조정하였으며, 이미지 로더를 설정하여 트래픽을 30%정도 개선할 수 있었습니다.",
       },
     ],
-    link: {
+    links: {
       github: "https://github.com/hyorimhan/LivingAlone",
       notion: "https://swanky-find-76e.notion.site/164f0495803c80b18719e872eecf852e?pvs=4",
       UTReport: "https://swanky-find-76e.notion.site/UT-Report-95fa4fe0fbbb435a8d239cd9f1d0100d?pvs=4",
@@ -142,6 +146,7 @@ export const WORK_DATA: WorkType[] = [
     category: "Frontend",
     title: "혼자살때 시즌2",
     englishTitle: "Living Alone Season 2",
+    siteLink: "",
     description:
       "혼자살때는 설레이는 첫 자취를 시작한 자취생의 걱정을 덜어주는 커뮤니티 웹서비스입니다.\n리팩토링을 통해 코드 품질과 성능을 개선하고, 사용자 경험을 향상시켰습니다.\n더욱 안정적이고 효율적인 서비스를 제공하기 위해 기존 기능들을 최적화하고 개선했습니다.",
     testAccount: {
@@ -189,7 +194,7 @@ export const WORK_DATA: WorkType[] = [
           "컴포넌트에 제네릭 타입을 적용하여 각 글쓰기 페이지에서 필요한 오류 타입을 유연하게 처리할 수 있도록 수정하여 문제를 해결했습니다.",
       },
     ],
-    link: {
+    links: {
       github: "https://github.com/hyorimhan/LivingAlone-S2",
       notion: "https://swanky-find-76e.notion.site/s2-164f0495803c80b18719e872eecf852e?pvs=4",
       UTReport: "https://swanky-find-76e.notion.site/s2-UT-Report-95fa4fe0fbbb435a8d239cd9f1d0100d?pvs=4",
@@ -200,6 +205,7 @@ export const WORK_DATA: WorkType[] = [
     category: "Frontend",
     title: "펫데이지",
     englishTitle: "Pet Daisy",
+    siteLink: "https://pet-daisy.vercel.app/",
     description:
       "펫데이지는 소중한 반려동물의 건강 여정을 함께하는 똑똑한 건강 관리 플랫폼입니다.\n체중 변화부터 병원 진료 기록, 예방접종 일정까지 한눈에 확인할 수 있어 더욱 건강한 반려생활을 도와드립니다.\n또한 일상의 특별한 순간들을 사진과 함께 기록할 수 있어, 반려동물과의 소중한 추억을 오래도록 간직할 수 있습니다.",
     testAccount: {
@@ -210,22 +216,22 @@ export const WORK_DATA: WorkType[] = [
       {
         title: "몸무게 기록",
         description:
-          "반려동물의 체중 변화를 시각적인 그래프로 한눈에 파악할 수 있습니다. 시간대별 체중 추이를 분석하여 건강 상태를 모니터링할 수 있으며, 급격한 체중 변화도 쉽게 확인할 수 있습니다. 체중 기록을 날짜별로 관리하여 장기적인 건강 관리가 가능합니다.",
+          "▸ 반려동물의 체중 변화를 시각적인 그래프로 한눈에 파악할 수 있습니다. \n▸ 시간대별 체중 추이를 분석하여 건강 상태를 모니터링할 수 있으며, 급격한 체중 변화도 쉽게 확인할 수 있습니다. \n▸ 체중 기록을 날짜별로 관리하여 장기적인 건강 관리가 가능합니다.",
       },
       {
         title: "진료 기록",
         description:
-          "병원 방문 기록과 진단 내용, 처방 내역을 체계적으로 기록하고 관리할 수 있습니다. 진료비, 병원명, 진단명 등 상세한 정보를 저장할 수 있어 추후 병원 방문 시 참고하기 용이합니다. 특히 만성 질환이나 정기 검진의 경우, 이전 진료 내역을 토대로 건강 상태의 변화를 추적할 수 있습니다.",
+          "▸ 병원 방문 기록과 진단 내용, 처방 내역을 체계적으로 기록하고 관리할 수 있습니다. \n▸ 진료비, 병원명, 진단명 등 상세한 정보를 저장할 수 있어 추후 병원 방문 시 참고하기 용이합니다. \n▸ 특히 만성 질환이나 정기 검진의 경우, 이전 진료 내역을 토대로 건강 상태의 변화를 추적할 수 있습니다.",
       },
       {
         title: "예방 접종 기록",
         description:
-          "반려동물의 예방접종 이력을 종류별로 구분하여 체계적으로 관리할 수 있습니다. 종합백신, 광견병, 코로나 등 각종 예방접종의 접종 날짜와 병원 정보를 기록할 수 있으며, 다음 접종 예정일도 함께 관리할 수 있습니다. 특히 반려동물의 연령대에 따른 필수 예방접종을 누락 없이 관리할 수 있습니다.",
+          "▸ 반려동물의 예방접종 이력을 종류별로 구분하여 체계적으로 관리할 수 있습니다. \n▸ 종합백신, 광견병, 코로나 등 각종 예방접종의 접종 날짜와 병원 정보를 기록할 수 있으며, 다음 접종 예정일도 함께 관리할 수 있습니다. \n▸ 특히 반려동물의 연령대에 따른 필수 예방접종을 누락 없이 관리할 수 있습니다.",
       },
       {
         title: "관찰 기록",
         description:
-          "반려동물의 일상적인 건강 상태와 특이사항을 사진과 함께 상세히 기록할 수 있습니다. 식사량, 배변 상태, 활동량 등 일상적인 건강 지표부터 특이 행동이나 증상까지 모든 관찰 사항을 날짜별로 기록할 수 있습니다. 사진 첨부 기능을 통해 피부 상태나 상처 등의 시각적인 변화도 효과적으로 기록하고 관리할 수 있습니다.",
+          "▸ 반려동물의 일상적인 건강 상태와 특이사항을 사진과 함께 상세히 기록할 수 있습니다.\n▸ 식사량, 배변 상태, 활동량 등 일상적인 건강 지표부터 특이 행동이나 증상까지 모든 관찰 사항을 날짜별로 기록할 수 있습니다.\n▸ 사진 첨부 기능을 통해 피부 상태나 상처 등의 시각적인 변화도 효과적으로 기록하고 관리할 수 있습니다.",
       },
     ],
     techStack: ["Next.js", "TypeScript", "Supabase", "TanStack Query", "Zustand", "Tailwind CSS"],
@@ -253,7 +259,7 @@ export const WORK_DATA: WorkType[] = [
           "이미지 업로드 상태를 추적하기 위해 blob URL과 실제 업로드된 URL의 개수를 비교하는 로직을 구현했습니다. 이미지 업로드가 진행 중일 때는 등록하기 버튼을 비활성화하고, 버튼 텍스트를 '이미지 업로드 중'으로 변경하여 사용자에게 현재 상태를 명확히 알려주도록 개선했습니다. 모든 이미지 업로드가 완료된 후에만 폼 제출이 가능하도록 하여 데이터 일관성을 보장했습니다.",
       },
     ],
-    link: {
+    links: {
       github: "https://github.com/hyorimhan/PetDaisy",
       notion: "https://swanky-find-76e.notion.site/162f0495803c80cba576f4a816e219be?pvs=4",
     },
