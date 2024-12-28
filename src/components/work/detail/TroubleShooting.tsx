@@ -2,7 +2,7 @@ interface TroubleShootingProps {
   troubleShooting: {
     title: string;
     problem: string;
-    solution: String;
+    solution: string;
   }[];
 }
 function TroubleShooting({ troubleShooting }: TroubleShootingProps) {
