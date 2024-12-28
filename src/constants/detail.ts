@@ -98,7 +98,7 @@ export const WORK_DATA: WorkType[] = [
       "혼자살때는 설레이는 첫 자취를 시작한 자취생의 걱정을 덜어주는 커뮤니티 웹서비스입니다.\n자취를 시작하는 사람들을 위한 필수템 리뷰와 공동구매 정보를 제공하는 커뮤니티 웹사이트입니다.\n\n회원들은 자취에 필요한 다양한 아이템을 추천하고,\n 특가 상품 공동구매를 통해 저렴하게 필요한 물품을 구입할 수 있으며,\n 회원가입을 통해 맞춤형 서비스와 편리한 기능을 이용할 수 있습니다.",
     testAccount: {
       id: "test@test.com",
-      password: "123123123",
+      password: "q1w2e3r4!!",
     },
     features: [
       {
@@ -151,7 +151,7 @@ export const WORK_DATA: WorkType[] = [
       "혼자살때는 설레이는 첫 자취를 시작한 자취생의 걱정을 덜어주는 커뮤니티 웹서비스입니다.\n리팩토링을 통해 코드 품질과 성능을 개선하고, 사용자 경험을 향상시켰습니다.\n더욱 안정적이고 효율적인 서비스를 제공하기 위해 기존 기능들을 최적화하고 개선했습니다.",
     testAccount: {
       id: "test@test.com",
-      password: "123123123",
+      password: "123123",
     },
     features: [
       {
@@ -181,13 +181,7 @@ export const WORK_DATA: WorkType[] = [
           "useWishStatus와 useWishCount 훅을 두가지로 분리하고, WishButton과 WishCount 컴포넌트도 분리하여 해결했습니다. 분리 후 mutation 내 캐싱처리가 중복되지 않고 잘 진행되는 것을 확인했습니다.",
       },
       {
-        title: "02. 사이트 첫 진입 시 무한 로딩 문제",
-        problem:
-          "사이트 처음 방문 시에 리스트 부분이 콘텐츠를 불러오지 못하고 로딩이 계속 지속됨. 새로고침해야 풀리는 문제가 있었습니다.",
-        solution: "해결 과정 진행 중",
-      },
-      {
-        title: "03. 이미지 업로드 컴포넌트 타입 충돌 문제",
+        title: "02. 이미지 업로드 컴포넌트 타입 충돌 문제",
         problem:
           "자취템 게시판과 공구템 게시판의 이미지 업로드 로직을 컴포넌트로 분리했으나, 각 페이지의 오류 메세지 타입이 달라 프롭스를 전달할 때 타입 충돌이 발생했습니다.",
         solution:
@@ -234,7 +228,17 @@ export const WORK_DATA: WorkType[] = [
           "▸ 반려동물의 일상적인 건강 상태와 특이사항을 사진과 함께 상세히 기록할 수 있습니다.\n▸ 식사량, 배변 상태, 활동량 등 일상적인 건강 지표부터 특이 행동이나 증상까지 모든 관찰 사항을 날짜별로 기록할 수 있습니다.\n▸ 사진 첨부 기능을 통해 피부 상태나 상처 등의 시각적인 변화도 효과적으로 기록하고 관리할 수 있습니다.",
       },
     ],
-    techStack: ["Next.js", "TypeScript", "Supabase", "TanStack Query", "Zustand", "Tailwind CSS"],
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "TanStack Query",
+      "Zustand",
+      "Tailwind CSS",
+      "React Hook Form",
+      "browser-image-compression",
+      "react-paginate",
+    ],
     techStackImage: "/images/tech-stack/petdaisy.png",
     trobleShooting: [
       {

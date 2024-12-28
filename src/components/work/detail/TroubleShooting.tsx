@@ -15,16 +15,16 @@ function TroubleShooting({ troubleShooting }: TroubleShootingProps) {
             <h4 className="max-w-max px-4 py-3 bg-black text-white font-bold text-[20px] rounded-lg">
               {trouble.title}
             </h4>
-            <p className="text-[28px] flex flex-col gap-12">
+            <div className="text-[28px] flex flex-col gap-12">
               <div>
                 <span className="font-bold">문제점</span>
-                <div>{trouble.problem}</div>
+                <p>{trouble.problem}</p>
               </div>
               <div>
                 <span className="font-bold">해결</span>
-                <div>{trouble.solution}</div>
+                <p>{trouble.solution}</p>
               </div>
-            </p>
+            </div>
           </li>
         ))}
       </ul>
