@@ -20,7 +20,7 @@ function Links({ links }: LinksProps) {
       {links.notion && (
         <li>
           <a
-            href={links.github}
+            href={links.notion}
             target="_blank"
             className="block py-[35px] text-[56px] text-center rounded-full bg-orange text-white"
           >
