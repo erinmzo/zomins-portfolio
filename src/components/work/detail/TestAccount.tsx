@@ -20,12 +20,16 @@ function TestAccount({ testId, testPw, link }: TestAccountProps) {
         </div>
       )}
       <div>
-        <a href={link} target="_blank" className="flex items-center font-bold gap-1 leading-none">
-          VISIT SITE
-          <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1 1L7 7.84091L1 15" stroke="black" strokeWidth="2" />
-          </svg>
-        </a>
+        {link === "" ? (
+          <span className="flex items-center font-bold gap-1 leading-none">배포 준비중 입니다.</span>
+        ) : (
+          <a href={link} target="_blank" className="flex items-center font-bold gap-1 leading-none">
+            VISIT SITE
+            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L7 7.84091L1 15" stroke="black" strokeWidth="2" />
+            </svg>
+          </a>
+        )}
       </div>
     </div>
   );
