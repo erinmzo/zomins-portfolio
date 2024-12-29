@@ -136,9 +136,10 @@ export const WORK_DATA: WorkType[] = [
       },
     ],
     links: {
-      github: "https://github.com/hyorimhan/LivingAlone",
-      notion: "https://swanky-find-76e.notion.site/164f0495803c80b18719e872eecf852e?pvs=4",
-      UTReport: "https://swanky-find-76e.notion.site/UT-Report-95fa4fe0fbbb435a8d239cd9f1d0100d?pvs=4",
+      github: "https://github.com/erinmzo/livingalone",
+      notion: "https://teamsparta.notion.site/A06-cd19dc2ae7cc4e6eb55e9387e868db22",
+      UTReport:
+        "https://file.notion.so/f/f/83c75a39-3aba-4ba4-a792-7aefe4b07895/79b749ff-5723-44af-915d-b18c6d4ded6e/%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BCUT.pdf?table=block&id=cd19dc2a-e7cc-4e6e-b55e-9387e868db22&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&expirationTimestamp=1735567200000&signature=uBjNlF3HIJhgYKJewO38lOSCUtS-NOjbvD4VL0gKGiQ&downloadName=UT+%EA%B2%B0%EA%B3%BC+%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf",
     },
   },
   {
@@ -189,9 +190,7 @@ export const WORK_DATA: WorkType[] = [
       },
     ],
     links: {
-      github: "https://github.com/hyorimhan/LivingAlone-S2",
-      notion: "https://swanky-find-76e.notion.site/s2-164f0495803c80b18719e872eecf852e?pvs=4",
-      UTReport: "https://swanky-find-76e.notion.site/s2-UT-Report-95fa4fe0fbbb435a8d239cd9f1d0100d?pvs=4",
+      github: "https://github.com/solpark16/livingalone-season2",
     },
   },
   {
