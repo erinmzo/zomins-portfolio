@@ -3,8 +3,8 @@ import Link from "next/link";
 
 function GlobalNav() {
   return (
-    <nav>
-      <ul className="hidden md:flex items-center gap-[72px] text-2xl">
+    <nav className="hidden md:block">
+      <ul className="flex items-center gap-[72px] text-2xl">
         <li>
           <Link href="/work">Work</Link>
         </li>

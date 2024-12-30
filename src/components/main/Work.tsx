@@ -8,9 +8,9 @@ function Work() {
     <Page>
       <div className="pt-[72px] md:pt-[140px] flex flex-col gap-5 md:gap-8 pb-[120px]">
         <h3 className="font-bold text-[32px] md:text-[64px]">WORK</h3>
-        <ul>
+        <ul className="border-t border-black">
           {WORK_LIST.slice(0, 3).map((work) => (
-            <li key={work.id} className="first:border-t first:border-black">
+            <li key={work.id}>
               <WorkCard work={work} />
             </li>
           ))}
