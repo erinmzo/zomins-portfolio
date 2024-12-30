@@ -13,7 +13,7 @@ function MobileHome() {
           <span className="max-w-max py-3 px-3 rounded-[12px] bg-black text-white font-medium">PORTPOLIO</span>
         </div>
       </h2>
-      <div className="flex flex-col justify-center items-center mt-[200px] animate-bounce">
+      <div className="flex flex-col justify-center items-center mt-[160px] animate-bounce">
         <span className="font-medium text-[16px]">SCROLL</span>
         <span>
           <Image src="/arrow.svg" alt="화살표" width={20} height={12} />
