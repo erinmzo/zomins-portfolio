@@ -5,17 +5,17 @@ import Work from "@/components/main/Work";
 
 export default function HomePage() {
   return (
-    <main className="h-screen snap-y snap-mandatory overflow-scroll scroll-smooth overscroll-y-contain scrollbar-hide">
-      <section className="snap-start min-h-screen bg-white">
+    <main className="md:h-screen md:snap-y md:snap-mandatory md:overflow-scroll md:scroll-smooth md:overscroll-y-contain md:scrollbar-hide">
+      <section className="md:snap-start md:min-h-screen bg-white">
         <Home />
       </section>
-      <section className="snap-start min-h-screen bg-blue">
+      <section className="md:snap-start md:min-h-screen bg-blue">
         <Intro />
       </section>
-      <section className="snap-start bg-white">
+      <section className="md:snap-start md:bg-white">
         <TechStack />
       </section>
-      <section className="snap-start min-h-screen bg-white">
+      <section className="md:snap-start md:min-h-screen bg-white">
         <Work />
       </section>
     </main>

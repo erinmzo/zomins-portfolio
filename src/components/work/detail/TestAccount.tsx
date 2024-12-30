@@ -10,7 +10,7 @@ function TestAccount({ testId, testPw, link }: TestAccountProps) {
       {testId && testPw && (
         <div className="flex items-center gap-[140px]">
           <div className="flex itmes-center gap-8">
-            <span className="font-bold  leading-none">TEST ID</span>
+            <span className="font-bold leading-none">TEST ID</span>
             <span className="leading-none">{testId}</span>
           </div>
           <div className="flex itmes-center gap-8">
