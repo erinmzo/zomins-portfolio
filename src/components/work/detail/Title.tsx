@@ -7,10 +7,10 @@ interface TitleProps {
 function Title({ category, title, engTitle }: TitleProps) {
   return (
     <div>
-      <div className="text-[36px] text-green font-bold">{category}</div>
-      <h2 className="py-[40px] flex flex-col gap-4">
-        <span className="text-[96px] leading-none">{title}</span>
-        <span className="text-[32px] opacity-50">{engTitle}</span>
+      <div className="text-[18px] md:text-[36px] text-green font-bold">{category}</div>
+      <h2 className="py-[16px] pb-0 md:py-[40px] flex flex-col gap-2 md:gap-4">
+        <span className="text-[32px] md:text-[96px] font-medium md:font-normal leading-none">{title}</span>
+        <span className="text-[12px] md:text-[32px] opacity-50">{engTitle}</span>
       </h2>
     </div>
   );

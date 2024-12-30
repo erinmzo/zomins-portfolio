@@ -26,7 +26,7 @@ function DetailLayout({ children }: PropsWithChildren) {
     scroll.scrollToTop();
   };
   return (
-    <div className="py-[100px]">
+    <div className="py-[34px] md:py-[100px]">
       {children}
       {isScroll && (
         <div className="fixed bottom-12 right-12">

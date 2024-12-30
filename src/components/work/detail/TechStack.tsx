@@ -8,11 +8,11 @@ interface TechStackProps {
 
 function TechStack({ techStacks, techStackImage }: TechStackProps) {
   return (
-    <div className="mt-[160px]">
-      <h3 className="font-bold text-[56px] leading-none">TECH STACK</h3>
-      <ul className="flex items-center gap-3 mt-[44px] flex-wrap">
+    <div className="mt-[48px] md:mt-[160px]">
+      <h3 className="font-bold text-[28px] md:text-[56px] leading-none">TECH STACK</h3>
+      <ul className="flex items-center gap-2 md:gap-3 mt-[32px] md:mt-[44px] flex-wrap">
         {techStacks.map((stack, index) => (
-          <li key={index} className="mt-4">
+          <li key={index} className="mt-2 md:mt-4">
             <Label label={stack} />
           </li>
         ))}
