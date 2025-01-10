@@ -191,6 +191,7 @@ export const WORK_DATA: WorkType[] = [
     ],
     links: {
       github: "https://github.com/solpark16/livingalone-season2",
+      notion: "https://nifty-hockey-6b6.notion.site/2-174c1938761380e09b8ace1edae13052?pvs=4",
     },
   },
   {

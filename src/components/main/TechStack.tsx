@@ -1,5 +1,5 @@
 import { MY_STACK } from "@/constants/stack";
-import { GITHUB_URL, RESUME_URL, VELOG_URL } from "@/constants/url";
+import { BLOG_URL, GITHUB_URL, RESUME_URL } from "@/constants/url";
 import Label from "../common/label/Label";
 import Page from "../common/layout/page/Page";
 
@@ -27,11 +27,11 @@ function TechStack() {
           </li>
           <li>
             <a
-              href={VELOG_URL}
+              href={BLOG_URL}
               className="block py-5 md:py-[35px] text-[24px] md:text-[72px] text-center rounded-full bg-orange text-white font-medium"
               target="_blank"
             >
-              Velog
+              Blog
             </a>
           </li>
           <li>

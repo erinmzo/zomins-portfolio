@@ -1,4 +1,4 @@
-import { GITHUB_URL, MAIL_TO, RESUME_URL, VELOG_URL } from "@/constants/url";
+import { BLOG_URL, GITHUB_URL, MAIL_TO, RESUME_URL } from "@/constants/url";
 import Link from "next/link";
 
 function FooterNav() {
@@ -16,8 +16,8 @@ function FooterNav() {
       </ul>
       <ul className="flex justify-between items-center text-base md:text-2xl text-blue mt-[24px]">
         <li className="font-bold underline">
-          <a href={VELOG_URL} target="_blank">
-            Velog
+          <a href={BLOG_URL} target="_blank">
+            Blog
           </a>
         </li>
         <li className="hidden md:block">
