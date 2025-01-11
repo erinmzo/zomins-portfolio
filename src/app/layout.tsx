@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -7,6 +8,12 @@ const pretendard = localFont({
   display: "swap",
   weight: "45 920",
 });
+
+export const metadata: Metadata = {
+  verification: {
+    google: "OHO2ohQCbbSAw0hMLbEVl2rswnYlXXp18fdbCxevn4E",
+  },
+};
 
 export default function RootLayout({
   children,
