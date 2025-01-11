@@ -5,6 +5,8 @@ export interface WorkType {
   englishTitle: string;
   siteLink: string;
   description: string;
+  due: string;
+  involveRate: number;
   testAccount?: {
     id: string;
     password: string;
@@ -36,6 +38,8 @@ export const WORK_DATA: WorkType[] = [
     siteLink: "https://erinmzo.github.io/naeungsic/",
     description:
       "가구 브랜드 레어로우와 고양이 수의사 나응식이 협업하여 제작된 공간을 소개하는 웹 리플릿입니다.\n감각적인 공간 스타일링과 가구들의 조화로운 배치를 통해 새로운 라이프스타일을 제안합니다.",
+    due: "23.07 ~ 23.08",
+    involveRate: 50,
     features: [
       {
         title: "공간 스타일링",
@@ -66,6 +70,8 @@ export const WORK_DATA: WorkType[] = [
     siteLink: "https://erinmzo.github.io/insungchang/",
     description:
       "철제 가구 브랜드 레어로우와 협업하여 제작된 웹 리플릿 프로젝트입니다.\n레어로우의 가구들로 스타일링된 오피스 공간을 소개하며,\n마케팅 전문가의 업무 공간에 어울리는 감각적인 공간을 제안합니다.",
+    due: "24.02 ~ 24.03",
+    involveRate: 50,
     features: [
       {
         title: "공간 스타일링",
@@ -96,6 +102,8 @@ export const WORK_DATA: WorkType[] = [
     siteLink: "https://livingalone.vercel.app/",
     description:
       "혼자살때는 설레이는 첫 자취를 시작한 자취생의 걱정을 덜어주는 커뮤니티 웹서비스입니다.\n자취를 시작하는 사람들을 위한 필수템 리뷰와 공동구매 정보를 제공하는 커뮤니티 웹사이트입니다.\n\n회원들은 자취에 필요한 다양한 아이템을 추천하고,\n 특가 상품 공동구매를 통해 저렴하게 필요한 물품을 구입할 수 있으며,\n 회원가입을 통해 맞춤형 서비스와 편리한 기능을 이용할 수 있습니다.",
+    due: "24.07 ~ 24.08",
+    involveRate: 30,
     testAccount: {
       id: "test@test.com",
       password: "q1w2e3r4!!",
@@ -150,6 +158,9 @@ export const WORK_DATA: WorkType[] = [
     siteLink: "",
     description:
       "혼자살때는 설레이는 첫 자취를 시작한 자취생의 걱정을 덜어주는 커뮤니티 웹서비스입니다.\n리팩토링을 통해 코드 품질과 성능을 개선하고, 사용자 경험을 향상시켰습니다.\n더욱 안정적이고 효율적인 서비스를 제공하기 위해 기존 기능들을 최적화하고 개선했습니다.",
+
+    due: "24.10 ~ 25.01",
+    involveRate: 30,
     testAccount: {
       id: "test@test.com",
       password: "123123",
@@ -202,6 +213,8 @@ export const WORK_DATA: WorkType[] = [
     siteLink: "https://pet-daisy.vercel.app/",
     description:
       "펫데이지는 소중한 반려동물의 건강 여정을 함께하는 똑똑한 건강 관리 플랫폼입니다.\n체중 변화부터 병원 진료 기록, 예방접종 일정까지 한눈에 확인할 수 있어 더욱 건강한 반려생활을 도와드립니다.\n또한 일상의 특별한 순간들을 사진과 함께 기록할 수 있어, 반려동물과의 소중한 추억을 오래도록 간직할 수 있습니다.",
+    due: "24.11 ~ 24.12",
+    involveRate: 50,
     testAccount: {
       id: "test@test.com",
       password: "123123123",

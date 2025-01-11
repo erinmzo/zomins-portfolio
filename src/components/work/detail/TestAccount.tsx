@@ -1,10 +1,12 @@
 interface TestAccountProps {
+  due: string;
+  involveRate: number;
   testId: string | undefined;
   testPw: string | undefined;
   link: string;
 }
 
-function TestAccount({ testId, testPw, link }: TestAccountProps) {
+function TestAccount({ due, involveRate, testId, testPw, link }: TestAccountProps) {
   return (
     <div className="mb-[40px]">
       <div className="flex flex-col md:flex-row md:items-end justify-between my-5 md:my-0 py-5 md:py-8 border-t border-b border-black text-[18px] gap-4 md:gap-0">
@@ -12,11 +14,11 @@ function TestAccount({ testId, testPw, link }: TestAccountProps) {
         <div className="hidden md:grid md:grid-cols-2 md:gap-x-32 md:gap-y-[28px] w-full max-w-3xl">
           <div className="flex gap-8">
             <span className="w-20 font-bold">작업기간</span>
-            <span>작성중</span>
+            <span>{due}</span>
           </div>
           <div className="flex gap-8">
             <span className="w-20 font-bold">기여도</span>
-            <span>50%</span>
+            <span>{involveRate}%</span>
           </div>
           <div className="flex gap-8">
             <span className="w-20 font-bold">TEST ID</span>

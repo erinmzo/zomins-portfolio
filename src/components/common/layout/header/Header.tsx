@@ -11,7 +11,7 @@ function Header() {
   if (pathname === "/" || pathname === "/work") {
     return (
       <div className="w-full fixed left-0 right-0 top-0 z-10">
-        <div className="w-full min-w-[340px] max-w-[390px] md:max-w-[1440px] px-4 md:px-12 md:mx-auto flex justify-between pt-[24px] pb-[20px] items-center">
+        <div className="w-full min-w-[340px] md:max-w-[1440px] px-4 md:px-12 md:mx-auto flex justify-between pt-[24px] pb-[20px] items-center">
           <Logo />
           <GlobalNav />
           <MobileNav />

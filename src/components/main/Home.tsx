@@ -7,7 +7,7 @@ function Home() {
     <Page>
       <div className="hidden md:flex flex-col items-start justify-center min-h-screen w-full relative -translate-y-[20px]">
         <div className="flex flex-col items-center">
-          <h2 className="text-7xl xl:text-8xl 2xl:text-[116px] flex flex-col">
+          <h2 className="text-[52px] lg:text-[72px] 2xl:text-[116px] flex flex-col">
             <div>
               <span className="inline-block py-3 px-8 rounded-[28px] bg-blue text-white">FRONTEND DEVELOPER</span>
             </div>

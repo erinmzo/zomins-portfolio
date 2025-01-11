@@ -12,6 +12,8 @@ function Detail({ portfolio }: { portfolio: WorkType }) {
     <>
       <Title category={portfolio.category} title={portfolio.title} engTitle={portfolio.englishTitle} />
       <TestAccount
+        due={portfolio.due}
+        involveRate={portfolio.involveRate}
         testId={portfolio.testAccount?.id}
         testPw={portfolio.testAccount?.password}
         link={portfolio.siteLink}

@@ -3,7 +3,7 @@ import Image from "next/image";
 function MobileHome() {
   return (
     <div className="md:hidden pt-[130px] pb-[24px]">
-      <h2 className="text-[36px] flex flex-col justify-center">
+      <h2 className="text-[36px] sm:[52px] flex flex-col justify-center">
         <div className="flex flex-col gap-3">
           <span className="max-w-max py-1 px-3 rounded-[12px] bg-blue text-white font-medium">FRONTEND</span>
           <span className="max-w-max py-1 px-3 rounded-[12px] bg-blue text-white font-medium">DEVELOPER</span>
