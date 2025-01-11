@@ -1,3 +1,4 @@
+import Footer from "@/components/common/layout/footer/Footer";
 import Home from "@/components/main/Home";
 import Intro from "@/components/main/Intro";
 import TechStack from "@/components/main/TechStack";
@@ -17,6 +18,9 @@ export default function HomePage() {
       </section>
       <section className="md:snap-start md:min-h-screen bg-white">
         <Work />
+      </section>
+      <section className="md:snap-start md:min-h-screen bg-white">
+        <Footer />
       </section>
     </main>
   );

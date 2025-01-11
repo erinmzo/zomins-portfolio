@@ -5,9 +5,9 @@ import MobileHome from "./MobileHome";
 function Home() {
   return (
     <Page>
-      <div className="hidden md:flex flex-col items-start justify-center min-h-screen w-full relative">
+      <div className="hidden md:flex flex-col items-start justify-center min-h-screen w-full relative -translate-y-[40px]">
         <div className="flex flex-col items-center">
-          <h2 className="text-7xl lg:text-8xl flex flex-col">
+          <h2 className="text-7xl lg:text-8xl xl:text-[96px] flex flex-col">
             <div>
               <span className="inline-block py-3 px-8 rounded-[28px] bg-blue text-white">FRONTEND DEVELOPER</span>
             </div>
@@ -19,7 +19,7 @@ function Home() {
 
           <div className="absolute inset-x-0 bottom-8 flex flex-col items-center animate-bounce">
             <span className="font-medium text-base">SCROLL</span>
-            <span>
+            <span className="mt-1">
               <Image src="/arrow.svg" alt="화살표" width={20} height={12} />
             </span>
           </div>

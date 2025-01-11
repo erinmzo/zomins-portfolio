@@ -1,3 +1,4 @@
+import Footer from "@/components/common/layout/footer/Footer";
 import Page from "@/components/common/layout/page/Page";
 import WorkList from "@/components/work/list/WorkList";
 
@@ -7,6 +8,7 @@ function WorkPage() {
       <Page>
         <WorkList />
       </Page>
+      <Footer />
     </>
   );
 }
