@@ -19,7 +19,7 @@ function TechStack() {
           <li>
             <a
               href={GITHUB_URL}
-              className="block py-5 md:py-[35px] text-[24px] md:text-[72px] text-center rounded-full bg-blue text-white font-medium"
+              className="block py-5 md:py-[35px] text-[28px] md:text-[72px] text-center rounded-full bg-blue text-white font-medium"
               target="_blank"
             >
               Github
@@ -28,7 +28,7 @@ function TechStack() {
           <li>
             <a
               href={BLOG_URL}
-              className="block py-5 md:py-[35px] text-[24px] md:text-[72px] text-center rounded-full bg-orange text-white font-medium"
+              className="block py-5 md:py-[35px] text-[28px] md:text-[72px] text-center rounded-full bg-orange text-white font-medium"
               target="_blank"
             >
               Blog
@@ -37,7 +37,7 @@ function TechStack() {
           <li>
             <a
               href={RESUME_URL}
-              className="block py-5 md:py-[35px] text-[24px] md:text-[72px] text-center rounded-full bg-green text-white font-medium"
+              className="block py-5 md:py-[35px] text-[28px] md:text-[72px] text-center rounded-full bg-green text-white font-medium"
               target="_blank"
             >
               Resume

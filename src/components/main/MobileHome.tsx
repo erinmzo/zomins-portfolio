@@ -8,12 +8,12 @@ function MobileHome() {
           <span className="max-w-max py-1 px-3 rounded-[12px] bg-blue text-white font-medium">FRONTEND</span>
           <span className="max-w-max py-1 px-3 rounded-[12px] bg-blue text-white font-medium">DEVELOPER</span>
         </div>
-        <div className="mt-[36px] flex flex-col gap-3">
+        <div className="mt-[44px] flex flex-col gap-3">
           <span className="max-w-max py-1 px-3 rounded-[12px] bg-black text-white font-medium">MINSOO CHO</span>
           <span className="max-w-max py-1 px-3 rounded-[12px] bg-black text-white font-medium">PORTPOLIO</span>
         </div>
       </h2>
-      <div className="flex flex-col justify-center items-center mt-[160px] animate-bounce">
+      <div className="flex flex-col justify-center items-center mt-[150px] animate-bounce">
         <span className="font-medium text-[16px]">SCROLL</span>
         <span className="mt-1">
           <Image src="/arrow.svg" alt="화살표" width={20} height={12} />

@@ -23,7 +23,7 @@ function WorkCard({ work }: WorkCardProps) {
         <h4 className="mt-3 md:mt-6 text-[32px] md:text-[96px] font-medium md:font-regular leading-none">
           {work.title}
         </h4>
-        <ul className="mt-[32px] md:mt-[64px] flex items-center gap-3">
+        <ul className="mt-[32px] md:mt-[64px] flex items-center gap-2 md:gap-3">
           {work.tags.map((tag) => (
             <li
               key={tag}
