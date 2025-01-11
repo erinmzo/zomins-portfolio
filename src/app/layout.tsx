@@ -1,3 +1,4 @@
+import GoogleTagManager from "@/components/GoogleTagManager";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import localFont from "next/font/local";
@@ -39,6 +40,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={`${pretendard.className} antialiased`}>{children}</body>
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || ""} />
       <Analytics />
     </html>
   );
