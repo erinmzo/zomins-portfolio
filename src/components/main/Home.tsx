@@ -5,21 +5,24 @@ import MobileHome from "./MobileHome";
 function Home() {
   return (
     <Page>
-      <div className="hidden md:block pt-[140px] pb-[40px]">
-        <h2 className="text-[96px] flex flex-col justify-center">
-          <div>
-            <span className="inline-block py-3 px-10 rounded-[28px] bg-blue text-white">FRONTEND DEVELOPER</span>
+      <div className="hidden md:flex flex-col items-start justify-center min-h-screen w-full relative">
+        <div className="flex flex-col items-center">
+          <h2 className="text-7xl lg:text-8xl flex flex-col">
+            <div>
+              <span className="inline-block py-3 px-8 rounded-[28px] bg-blue text-white">FRONTEND DEVELOPER</span>
+            </div>
+            <div className="mt-16 lg:mt-22 flex flex-col items-start">
+              <span className="inline-block py-3 px-8 rounded-[28px] bg-black text-white">MINSOO CHO</span>
+              <span className="inline-block mt-8 py-3 px-8 rounded-[28px] bg-black text-white">PORTPOLIO</span>
+            </div>
+          </h2>
+
+          <div className="absolute inset-x-0 bottom-8 flex flex-col items-center animate-bounce">
+            <span className="font-medium text-base">SCROLL</span>
+            <span>
+              <Image src="/arrow.svg" alt="화살표" width={20} height={12} />
+            </span>
           </div>
-          <div className="mt-[88px] flex flex-col items-start">
-            <span className="inline-block py-3 px-10 rounded-[28px] bg-black text-white">MINSOO CHO</span>
-            <span className="inline-block mt-8 py-3 px-10 rounded-[28px] bg-black text-white">PORTPOLIO</span>
-          </div>
-        </h2>
-        <div className="flex flex-col justify-center items-center mt-[176px] md:mt-[144px] animate-bounce">
-          <span className="font-medium text-[24px]">SCROLL</span>
-          <span>
-            <Image src="/arrow.svg" alt="화살표" width={34} height={20} />
-          </span>
         </div>
       </div>
       <MobileHome />
