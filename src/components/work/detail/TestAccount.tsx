@@ -12,11 +12,11 @@ function TestAccount({ testId, testPw, link }: TestAccountProps) {
         <div className="hidden md:grid md:grid-cols-2 md:gap-x-32 md:gap-y-[28px] w-full max-w-3xl">
           <div className="flex gap-8">
             <span className="w-20 font-bold">기여도</span>
-            <span>test@test.com</span>
+            <span>50%</span>
           </div>
           <div className="flex gap-8">
             <span className="w-20 font-bold">작업기간</span>
-            <span>test@test.com</span>
+            <span>작성중</span>
           </div>
           <div className="flex gap-8">
             <span className="w-20 font-bold">TEST ID</span>
