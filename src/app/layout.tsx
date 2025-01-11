@@ -10,6 +10,22 @@ const pretendard = localFont({
 });
 
 export const metadata: Metadata = {
+  title: {
+    default: "프론트엔드 개발자 조민수 포트폴리오 사이트",
+    template: "프론트엔드 개발자 조민수 포트폴리오 사이트",
+  },
+  description: "다양한 경험으로 소통하는 개발자 조민수입니다.",
+  openGraph: {
+    title: "프론트엔드 개발자 조민수 포트폴리오 사이트",
+    description: "다양한 경험으로 소통하는 개발자 조민수입니다.",
+    siteName: "조민수 포트폴리오 사이트",
+    locale: "ko_KR",
+    type: "website",
+    url: "https://zomins-portfolio.vercel.app/",
+    images: {
+      url: "/img-meta.jpg",
+    },
+  },
   verification: {
     google: "OHO2ohQCbbSAw0hMLbEVl2rswnYlXXp18fdbCxevn4E",
   },
