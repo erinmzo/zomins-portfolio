@@ -239,7 +239,6 @@ export const WORK_DATA: WorkType[] = [
       "browser-image-compression",
       "react-paginate",
     ],
-    techStackImage: "/images/tech-stack/petdaisy.png",
     trobleShooting: [
       {
         title: "01. 이미지 업로드 상태 관리 개선",
