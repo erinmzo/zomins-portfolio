@@ -5,13 +5,13 @@ import MobileHome from "./MobileHome";
 function Home() {
   return (
     <Page>
-      <div className="hidden md:flex flex-col items-start justify-center min-h-screen w-full relative -translate-y-[40px]">
+      <div className="hidden md:flex flex-col items-start justify-center min-h-screen w-full relative -translate-y-[20px]">
         <div className="flex flex-col items-center">
           <h2 className="text-7xl lg:text-8xl xl:text-[96px] flex flex-col">
             <div>
               <span className="inline-block py-3 px-8 rounded-[28px] bg-blue text-white">FRONTEND DEVELOPER</span>
             </div>
-            <div className="mt-16 lg:mt-22 flex flex-col items-start">
+            <div className="mt-[80px] lg:mt-22 flex flex-col items-start">
               <span className="inline-block py-3 px-8 rounded-[28px] bg-black text-white">MINSOO CHO</span>
               <span className="inline-block mt-8 py-3 px-8 rounded-[28px] bg-black text-white">PORTPOLIO</span>
             </div>
