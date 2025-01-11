@@ -7,7 +7,7 @@ interface LinksProps {
 }
 function Links({ links }: LinksProps) {
   return (
-    <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5 mt-9 md:mt-[100px]">
+    <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-5 mt-7 md:mt-[100px]">
       <li>
         <a
           href={links.github}
