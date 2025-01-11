@@ -4,7 +4,7 @@ import Link from "next/link";
 function GlobalNav() {
   return (
     <nav className="hidden md:block">
-      <ul className="flex items-center gap-[72px] text-2xl">
+      <ul className="flex items-center gap-[88px] text-[20px]">
         <li>
           <Link href="/work">Work</Link>
         </li>

@@ -12,7 +12,7 @@ function Feature({ features }: FeatureProps) {
         {features.map((feature, index) => (
           <li key={index} className="py-5 px-4 md:p-[40px] bg-[#fffbe8] rounded-[12px] md:rounded-[20px]">
             <h4 className="text-[24px] md:text-[44px] font-bold">{feature.title}</h4>
-            <p className="text-[16px] md:text-[28px] whitespace-pre-line leading-[26px] md:leading-loose mt-[36px] md:mt-[64px]">
+            <p className="text-[16px] md:text-[28px] whitespace-pre-line leading-[26px] md:leading-[1.3] mt-[36px] md:mt-[64px]">
               {feature.description}
             </p>
           </li>

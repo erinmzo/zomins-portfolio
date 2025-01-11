@@ -6,7 +6,7 @@ import WorkCard from "../work/list/WorkCard";
 function Work() {
   return (
     <Page>
-      <div className="pt-[72px] md:pt-[140px] flex flex-col gap-5 md:gap-8 pb-[120px]">
+      <div className="pt-[72px] md:pt-[140px] flex flex-col gap-5 md:gap-6 pb-[120px]">
         <h3 className="font-bold text-[32px] md:text-[64px]">WORK</h3>
         <ul className="border-t border-black">
           {WORK_LIST.slice(0, 3).map((work) => (
