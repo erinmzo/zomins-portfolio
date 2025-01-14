@@ -155,7 +155,7 @@ export const WORK_DATA: WorkType[] = [
     category: "Frontend",
     title: "혼자살때 시즌2",
     englishTitle: "Living Alone Season 2",
-    siteLink: "",
+    siteLink: "https://livingalone-season2.vercel.app/",
     description:
       "혼자살때는 설레이는 첫 자취를 시작한 자취생의 걱정을 덜어주는 커뮤니티 웹서비스입니다.\n리팩토링을 통해 코드 품질과 성능을 개선하고, 사용자 경험을 향상시켰습니다.\n더욱 안정적이고 효율적인 서비스를 제공하기 위해 기존 기능들을 최적화하고 개선했습니다.",
 
